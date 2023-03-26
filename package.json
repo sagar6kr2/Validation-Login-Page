@@ -1,0 +1,11 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "description": "login page",
+  "main": "log.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sagar",
+  "license": "ISC"
+}

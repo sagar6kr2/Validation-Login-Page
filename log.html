@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+    
+    <form action="/myff.php" name="myform" onsubmit="return validation()" method="post">
+            <div class="container">
+            <div class="formdesign" id="name">
+                Name: <input type="text" name="fname" required  placeholder="Enter your name"><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="number">
+                Number: <input type="number" name="fnumber" required placeholder="Enter your number"><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="pass">
+                Password: <input type="password" name="fpass" required placeholder="enter your password"><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="cpass">
+                conformPassword: <input type="password" name="fcpass" required placeholder="enter your conform password"><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="email">
+                Email: <input type="email" name="femail" required placeholder="enter you email"><span class="formerror"></span>
+            </div>
+            <input type="submit" class="btn" value="submit">
+        </div>
+        </form>
+</body>
+
+</html>
+<script src="log.js"></script>
